@@ -1,10 +1,10 @@
 import React from 'react'
 
-import { ExampleComponent } from 'react-lists-dnd'
 import 'react-lists-dnd/dist/index.css'
+import {Example} from "./Example";
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <Example />
 }
 
 export default App
